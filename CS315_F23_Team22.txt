@@ -1,0 +1,24 @@
+fun main(){
+pout("Enter 3 values x, y, z (respectively) which are not zero");
+pout("Enter x");
+pint x == pin();
+pout("Enter y");
+pint y == pin();
+pout("Enter z");
+pint z == pin();
+wloop(x = 0){
+        pout("Please enter a number other than 0");
+        x == pin();
+}
+wloop(y = 0){
+        pout("Please enter a number other than 0");
+        y == pin();
+}
+wloop(z = 0){
+        pout("Please enter a number other than 0");
+        z == pin();
+}
+pout("x*y*z is equal to ");
+pint sum == x*y*z;
+pout(sum);
+}
